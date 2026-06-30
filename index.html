@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Willys Emeje Wafula | AI Data Specialist &amp; Full Stack Developer</title>
+<meta name="description" content="Willys Emeje Wafula — Computer Science graduate, Full Stack Developer, and AI Data Specialist based in Kenya. Specializing in AI evaluation, data science, and scalable web applications. Available for remote work.">
+<meta name="keywords" content="Willys Emeje, Full Stack Developer Kenya, AI Data Specialist, Data Annotation, Prompt Engineering, Software Engineer Nairobi, Remote Developer">
+<meta name="author" content="Willys Emeje Wafula">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Willys Emeje Wafula | AI Data Specialist & Full Stack Developer">
+<meta property="og:description" content="Computer Science graduate specializing in AI evaluation, data science, and full-stack web development. Available for remote work.">
+<meta property="og:image" content="assets/profile-photo.png">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="assets/profile-photo.png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&amp;family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Structured data for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Willys Emeje Wafula",
+  "jobTitle": "Full Stack Developer & AI Data Specialist",
+  "url": "https://willys-pro.github.io/APP",
+  "email": "emeje.w@proton.me",
+  "telephone": "+254107979247",
+  "address": { "@type": "PostalAddress", "addressCountry": "Kenya" },
+  "alumniOf": "University of Nairobi",
+  "knowsAbout": ["Artificial Intelligence", "Data Science", "Full Stack Development", "Data Annotation", "Prompt Engineering"]
+}
+</script>
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader" aria-hidden="true">
+  <div class="loader-mark">WE</div>
+</div>
+
+<!-- Skip link -->
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- NAV -->
+<header>
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">WE<span>.</span></a>
+
+    <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <a href="assets/Willys_Emeje_CV.pdf" download class="nav-cta">Hire Me</a>
+  </nav>
+  <div class="scroll-progress" id="scroll-progress"></div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-glow hero-glow-1"></div>
+  <div class="hero-glow hero-glow-2"></div>
+  <canvas id="particles"></canvas>
+
+  <div class="hero-inner">
+    <div class="hero-text reveal-up">
+      <div class="hero-eyebrow"><span class="status-dot"></span>Available for Remote Work</div>
+      <h1 class="hero-name">
+        Willys<br><span class="accent-line">Emeje.</span>
+      </h1>
+      <div class="hero-typing">
+        <span id="typing-text"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-tagline">
+        Turning <em>raw data into intelligence</em> and <em>intelligence into software</em> —
+        one precise, scalable solution at a time.
+      </p>
+      <div class="hero-actions">
+        <a href="assets/Willys_Emeje_CV.pdf" download class="btn btn-primary">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v3a1 1 0 001 1h14a1 1 0 001-1v-3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Download CV
+        </a>
+        <a href="#projects" class="btn btn-outline">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/willys-pro" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-1.94c-3.2.7-3.87-1.54-3.87-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.07.78 2.16v3.2c0 .31.21.67.79.55C20.21 21.38 23.5 17.07 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/willys-emeje" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0z"/></svg>
+        </a>
+        <a href="mailto:emeje.w@proton.me" aria-label="Email" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z" stroke-linejoin="round"/><path d="M3 6l9 7 9-7" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap reveal-up" style="--delay:0.15s">
+      <div class="hero-photo-frame">
+        <img src="assets/profile-photo.png" alt="Willys Emeje Wafula, Full Stack Developer and AI Data Specialist" width="400" height="460" loading="eager">
+        <div class="hero-badge">📍 Nairobi, Kenya · Remote</div>
+      </div>
+      <div class="orbit-ring orbit-1"></div>
+      <div class="orbit-ring orbit-2"></div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-label reveal-up">Who I Am</div>
+  <div class="about-grid">
+    <div class="about-photo-wrap reveal-left">
+      <div class="glass-card about-photo-card">
+        <img src="assets/profile-photo.png" alt="Willys Emeje" loading="lazy">
+      </div>
+      <div class="about-tag">BSc Computer Science · UoN · 2019</div>
+    </div>
+    <div class="about-body reveal-right">
+      <h2 class="section-title">Building at the intersection of AI, Data &amp; Code</h2>
+      <div class="divider"></div>
+      <p>
+        I'm a Computer Science graduate and Full Stack Developer with a deep passion for Artificial
+        Intelligence and data-driven problem solving. Over five years of independent, contract, and
+        team-lead experience have given me rare breadth: I can architect a backend API, train an ML
+        pipeline, evaluate AI model outputs, and lead a team — all in the same career.
+      </p>
+      <p>
+        My work spans production web applications, real-time data systems, AI response evaluation,
+        and financial technology operations. I've built trading terminals processing live market
+        data, contributed to AI training pipelines through annotation and evaluation, and led a
+        20-person team through process change in a fast-moving FinTech environment.
+      </p>
+      <p>
+        Whether I'm reviewing model outputs for quality and coherence, writing robust REST
+        integrations, or coaching a team toward better performance — I bring analytical precision,
+        strong technical writing, and relentless attention to detail to everything I deliver.
+      </p>
+      <div class="about-stats">
+        <div class="stat-item"><div class="stat-num" data-count="5">0</div><div class="stat-label">Years Experience</div></div>
+        <div class="stat-item"><div class="stat-num" data-count="20">0</div><div class="stat-label">Team Members Led</div></div>
+        <div class="stat-item"><div class="stat-num" data-count="12">0</div><div class="stat-label">Technical Indicators</div></div>
+        <div class="stat-item"><div class="stat-num" data-count="3">0</div><div class="stat-label">Apps Shipped</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT I DO -->
+<section id="what-i-do">
+  <div class="section-label reveal-up">Services</div>
+  <h2 class="section-title reveal-up">What I Do</h2>
+  <p class="section-sub reveal-up">Four domains. One engineer who bridges them all.</p>
+  <div class="divider reveal-up"></div>
+  <div class="services-grid">
+    <div class="glass-card service-card reveal-up">
+      <div class="service-icon">🤖</div>
+      <h3>Artificial Intelligence</h3>
+      <p>AI response evaluation, model testing, prompt engineering, data annotation, and QA for AI training pipelines.</p>
+    </div>
+    <div class="glass-card service-card reveal-up" style="--delay:0.08s">
+      <div class="service-icon">📊</div>
+      <h3>Data Science</h3>
+      <p>EDA, dataset cleaning, predictive modelling, machine learning, and business intelligence reporting.</p>
+    </div>
+    <div class="glass-card service-card reveal-up" style="--delay:0.16s">
+      <div class="service-icon">💻</div>
+      <h3>Software Development</h3>
+      <p>Full-stack web apps, REST &amp; WebSocket integration, automation bots, and scalable backends.</p>
+    </div>
+    <div class="glass-card service-card reveal-up" style="--delay:0.24s">
+      <div class="service-icon">👥</div>
+      <h3>Team Leadership</h3>
+      <p>Led a 20-agent team through schedule redesign and performance improvement in a live FinTech operation.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-label reveal-up">Technical Skills</div>
+  <h2 class="section-title reveal-up">My Toolkit</h2>
+  <p class="section-sub reveal-up">Proficiency built through real production work, not just tutorials.</p>
+  <div class="divider reveal-up"></div>
+
+  <div class="skills-bars-grid">
+    <div class="skills-col reveal-left">
+      <h4 class="skills-col-title">Programming &amp; Development</h4>
+      <div class="skill-bar" data-level="90">
+        <div class="skill-bar-head"><span>Python</span><span class="skill-pct">90%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-bar" data-level="92">
+        <div class="skill-bar-head"><span>JavaScript (ES6+)</span><span class="skill-pct">92%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-bar" data-level="88">
+        <div class="skill-bar-head"><span>REST &amp; WebSocket APIs</span><span class="skill-pct">88%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-bar" data-level="80">
+        <div class="skill-bar-head"><span>Node.js / Express</span><span class="skill-pct">80%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-bar" data-level="78">
+        <div class="skill-bar-head"><span>Vue 3 / Flask</span><span class="skill-pct">78%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+    </div>
+
+    <div class="skills-col reveal-right">
+      <h4 class="skills-col-title">AI, Data &amp; Operations</h4>
+      <div class="skill-bar" data-level="93">
+        <div class="skill-bar-head"><span>AI Response Evaluation</span><span class="skill-pct">93%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-bar" data-level="89">
+        <div class="skill-bar-head"><span>Data Annotation &amp; QA</span><span class="skill-pct">89%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-bar" data-level="86">
+        <div class="skill-bar-head"><span>Prompt Engineering</span><span class="skill-pct">86%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-bar" data-level="82">
+        <div class="skill-bar-head"><span>Data Analysis &amp; EDA</span><span class="skill-pct">82%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+      <div class="skill-bar" data-level="91">
+        <div class="skill-bar-head"><span>Team Leadership</span><span class="skill-pct">91%</span></div>
+        <div class="skill-track"><div class="skill-fill"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tools-row reveal-up">
+    <span class="skill-tag">Git &amp; GitHub</span>
+    <span class="skill-tag">VS Code</span>
+    <span class="skill-tag">Google Workspace</span>
+    <span class="skill-tag">MS Office / Excel</span>
+    <span class="skill-tag">SQLite / JWT</span>
+    <span class="skill-tag">PWA</span>
+    <span class="skill-tag">Scale AI</span>
+    <span class="skill-tag">Outlier AI</span>
+  </div>
+</section>
+
+<!-- EXPERIENCE TIMELINE -->
+<section id="experience">
+  <div class="section-label reveal-up">Background</div>
+  <h2 class="section-title reveal-up">Professional Experience</h2>
+  <div class="divider reveal-up"></div>
+
+  <div class="timeline">
+
+    <div class="timeline-item reveal-up">
+      <div class="timeline-dot"></div>
+      <div class="glass-card timeline-card">
+        <div class="timeline-date">2024 – Present · Remote</div>
+        <h3>Team Lead — Operations</h3>
+        <div class="timeline-company">Chapeo Capital Ltd · M1–2 Department</div>
+        <p>Led a team of <strong>20 agents</strong> across digital lending operations, driving a proposed
+        new work schedule through structured staff consultation. Authored a full feedback report
+        analyzing team sentiment, securing 12 of 14 agents in support and 2 partially supporting.</p>
+        <ul>
+          <li>Managed team performance, scheduling, and process improvement initiatives</li>
+          <li>Collected and synthesized structured staff feedback into an actionable report</li>
+          <li>Bridged frontline agent concerns with management decision-making</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item reveal-up">
+      <div class="timeline-dot"></div>
+      <div class="glass-card timeline-card">
+        <div class="timeline-date">2022 – Present · Remote</div>
+        <h3>AI Training &amp; Data Operations</h3>
+        <div class="timeline-company">Freelance · Scale AI · Outlier AI · Remotasks</div>
+        <ul>
+          <li>Evaluated AI model responses for accuracy, coherence, and safety alignment</li>
+          <li>Annotated and labelled structured and unstructured datasets for ML training</li>
+          <li>Designed, tested, and scored prompts for language model training pipelines</li>
+          <li>Verified information accuracy through rigorous fact-checking and QA</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item reveal-up">
+      <div class="timeline-dot"></div>
+      <div class="glass-card timeline-card">
+        <div class="timeline-date">2022 – Present · Remote</div>
+        <h3>Software Development</h3>
+        <div class="timeline-company">Independent Projects &amp; Freelance Contracts</div>
+        <ul>
+          <li>Built production web apps integrating real-time APIs and automated data pipelines</li>
+          <li>Engineered multi-indicator signal engines (EMA, MACD, RSI, Bollinger Bands, ADX)</li>
+          <li>Developed Node.js/Express backends with SQLite, JWT auth, and REST API layers</li>
+          <li>Conducted technical code reviews of Vue 3 / Rsbuild production CRM systems</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item reveal-up">
+      <div class="timeline-dot"></div>
+      <div class="glass-card timeline-card">
+        <div class="timeline-date">Chapeo Capital Limited · Nairobi, Kenya</div>
+        <h3>Debt Recovery &amp; Financial Operations Specialist</h3>
+        <div class="timeline-company">Digital Lending: SuluCash · ChapeoCredit · ZK-Pesa</div>
+        <ul>
+          <li>Managed high-volume customer loan portfolios across multiple digital products</li>
+          <li>Negotiated repayment plans and conducted recovery communications professionally</li>
+          <li>Prepared collection reports and performance analyses for management review</li>
+          <li>Used data-driven approaches to prioritize accounts and improve recovery rates</li>
+        </ul>
+        <div class="timeline-tags">
+          <span class="skill-chip">CRM</span>
+          <span class="skill-chip">Negotiation</span>
+          <span class="skill-chip">Loan Portfolio Mgmt</span>
+          <span class="skill-chip">Data Analysis</span>
+          <span class="skill-chip">Conflict Resolution</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label reveal-up">Portfolio</div>
+  <h2 class="section-title reveal-up">Featured Projects</h2>
+  <div class="divider reveal-up"></div>
+  <div class="projects-grid">
+
+    <div class="glass-card project-card reveal-up">
+      <div class="project-banner"></div>
+      <div class="project-body">
+        <div class="project-tag">AI · Training Data</div>
+        <h3>AI Model Training &amp; Evaluation</h3>
+        <p>Contributed to AI model improvement through structured data annotation, response evaluation, and quality assurance, applying RLHF principles across accuracy, coherence, and safety.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Data Annotation</span>
+          <span class="tech-tag">Prompt Eng.</span>
+          <span class="tech-tag">RLHF</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="glass-card project-card reveal-up" style="--delay:0.08s">
+      <div class="project-banner"></div>
+      <div class="project-body">
+        <div class="project-tag">FinTech · WebSocket API</div>
+        <h3>Deriv Smart Trader Pro</h3>
+        <p>Full-stack trading terminal connecting to Deriv.com's WebSocket API in real time. Features a 12-indicator AI signal engine, 2-stage barrier-locked Auto Trader, and a Node/Express admin backend.</p>
+        <div class="project-tech">
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">WebSocket</span>
+          <span class="tech-tag">PWA</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="glass-card project-card reveal-up" style="--delay:0.16s">
+      <div class="project-banner"></div>
+      <div class="project-body">
+        <div class="project-tag">Data Science · Analytics</div>
+        <h3>Data Analytics Dashboard</h3>
+        <p>Business intelligence reports transforming raw operational data into actionable insight, covering digital lending performance and portfolio risk metrics across multiple FinTech products.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Dashboards</span>
+          <span class="tech-tag">MS Excel</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="glass-card project-card reveal-up" style="--delay:0.24s">
+      <div class="project-banner"></div>
+      <div class="project-body">
+        <div class="project-tag">Research · Documentation</div>
+        <h3>Research &amp; Technical Documentation</h3>
+        <p>Produced structured technical documentation, software specs, and business analysis reports for multiple contract clients with clear, professionally formatted deliverables.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Technical Writing</span>
+          <span class="tech-tag">Research</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="section-label reveal-up">Academic Background</div>
+  <h2 class="section-title reveal-up">Education</h2>
+  <div class="divider reveal-up"></div>
+  <div class="glass-card edu-card reveal-up">
+    <div>
+      <div class="edu-degree">Bachelor of Science in Computer Science</div>
+      <div class="edu-school">University of Nairobi</div>
+      <div class="edu-year">Graduated: 2019</div>
+      <p>A rigorous technical foundation combining theoretical computer science with practical
+      software engineering — algorithms, data structures, applied mathematics, and systems
+      design — directly applicable to both AI/data and software development work.</p>
+    </div>
+    <div>
+      <div class="edu-modules-title">Core Modules</div>
+      <div class="edu-modules">
+        <span class="edu-tag">Machine Learning</span>
+        <span class="edu-tag">Statistics</span>
+        <span class="edu-tag">Database Systems</span>
+        <span class="edu-tag">Artificial Intelligence</span>
+        <span class="edu-tag">Data Mining</span>
+        <span class="edu-tag">Algorithms</span>
+        <span class="edu-tag">Research Methods</span>
+        <span class="edu-tag">Software Engineering</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-label reveal-up">Get In Touch</div>
+  <h2 class="section-title reveal-up">Let's Work Together</h2>
+  <div class="divider reveal-up"></div>
+
+  <div class="contact-grid">
+    <div class="contact-info reveal-left">
+      <div class="contact-status"><span class="status-dot"></span>Available for new projects</div>
+      <h3>Reach me directly</h3>
+      <a href="mailto:emeje@tuta.io" class="contact-link">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z" stroke-linejoin="round"/><path d="M3 6l9 7 9-7" stroke-linejoin="round"/></svg>
+        emeje@tuta.io
+      </a>
+      <a href="mailto:emeje.w@proton.me" class="contact-link">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z" stroke-linejoin="round"/><path d="M3 6l9 7 9-7" stroke-linejoin="round"/></svg>
+        emeje.w@proton.me
+      </a>
+      <a href="tel:+254107979247" class="contact-link">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        +254 107 979 247
+      </a>
+      <div class="contact-socials">
+        <a href="https://github.com/willys-pro" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-1.94c-3.2.7-3.87-1.54-3.87-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.07.78 2.16v3.2c0 .31.21.67.79.55C20.21 21.38 23.5 17.07 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/willys-emeje" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0z"/></svg>
+        </a>
+      </div>
+      <div class="contact-avail">
+        <h4>Open to</h4>
+        <span class="avail-tag">Remote AI Training</span>
+        <span class="avail-tag">Data Science</span>
+        <span class="avail-tag">Software Development</span>
+        <span class="avail-tag">Team Leadership</span>
+        <span class="avail-tag">Freelance Projects</span>
+      </div>
+    </div>
+
+    <form id="contact-form" class="glass-card contact-form reveal-right" novalidate>
+      <h3>Send a message</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <span class="form-error" id="name-error"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <span class="form-error" id="email-error"></span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required>
+        <span class="form-error" id="subject-error"></span>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <span class="form-error" id="message-error"></span>
+      </div>
+      <button type="submit" class="btn btn-primary form-submit">
+        <span class="btn-text">Send Message</span>
+        <span class="btn-spinner" aria-hidden="true"></span>
+      </button>
+      <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Willys<span>.</span></div>
+  <p class="footer-tagline">Building intelligent solutions with Data, AI, Software Engineering, and Financial Technology.</p>
+  <div class="footer-socials">
+    <a href="https://github.com/willys-pro" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-1.94c-3.2.7-3.87-1.54-3.87-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.09 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.07.78 2.16v3.2c0 .31.21.67.79.55C20.21 21.38 23.5 17.07 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>
+    </a>
+    <a href="https://linkedin.com/in/willys-emeje" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0z"/></svg>
+    </a>
+    <a href="mailto:emeje.w@proton.me" aria-label="Email" class="social-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z" stroke-linejoin="round"/><path d="M3 6l9 7 9-7" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+  <p class="footer-copy">© 2026 Willys Emeje Wafula. All Rights Reserved.</p>
+</footer>
+
+<button id="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
